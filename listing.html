@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StayBnB - Listings</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/647a9f507c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav id="navBar" class="navbar-white">
+      <a href="index.html">
+        <img src="images/logo-red.png" class="logo" alt="Logo" />
+      </a>
+      <ul class="nav-link">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="listing.html" class="active">Popular Places</a></li>
+        <li><a href="house.html">Online Packages</a></li>
+      </ul>
+      <a href="#" class="register-btn">Register Now</a>
+      <i class="fa-solid fa-bars" onclick="togglebtn()"></i>
+    </nav>
+
+    <div class="container">
+      <div class="list-container">
+        <div class="left-col">
+          <p>200+ Options</p>
+          <h1>Recommended Places In San Francisco</h1>
+
+          <!-- 1: Glassfront bedroom -->
+          <div class="house">
+            <div class="house-img">
+              <a href="house.html">
+                <img src="images/image-s1.png" alt="Glassfront bedroom suite" />
+              </a>
+            </div>
+            <div class="house-info">
+              <p>Private Suite in San Francisco</p>
+              <h3>
+                <a href="house.html" style="text-decoration: none; color: #333">
+                  Glassfront Bedroom Suite with Balcony
+                </a>
+              </h3>
+              <p>1 Bedroom • 1 Bathroom • Balcony • Wi-Fi</p>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+              <i class="fa-regular fa-star"></i>
+
+              <div class="house-price">
+                <p>2 Guests</p>
+                <h4>$ 130 <span>/ day</span></h4>
+              </div>
+            </div>
+          </div>
+
+          <!-- 2: Pop-art open-plan loft -->
+          <div class="house">
+            <div class="house-img">
+              <img
+                src="images/image-s2.png"
+                alt="Modern open-plan loft living room"
+              />
+            </div>
+            <div class="house-info">
+              <p>Stylish Loft in San Francisco</p>
+              <h3>Modern Open-Plan Loft with Art Wall</h3>
+              <p>1 Bedroom • 1 Bathroom • Wi-Fi • Chef’s Kitchen</p>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+              <i class="fa-regular fa-star"></i>
+
+              <div class="house-price">
+                <p>2 Guests</p>
+                <h4>$ 160 <span>/ day</span></h4>
+              </div>
+            </div>
+          </div>
+
+          <!-- 3: Bright family apartment with dining -->
+          <div class="house">
+            <div class="house-img">
+              <img
+                src="images/image-s3.png"
+                alt="Bright family apartment with dining area"
+              />
+            </div>
+            <div class="house-info">
+              <p>Family Apartment in San Francisco</p>
+              <h3>Bright Family Apartment with Dining Area</h3>
+              <p>2 Bedrooms • 1 Bathroom • Wi-Fi • Dining Space</p>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+
+              <div class="house-price">
+                <p>4 Guests</p>
+                <h4>$ 140 <span>/ day</span></h4>
+              </div>
+            </div>
+          </div>
+
+          <!-- 4: Cozy living + kitchen -->
+          <div class="house">
+            <div class="house-img">
+              <img
+                src="images/image-s4.png"
+                alt="Cozy apartment with kitchen and dining"
+              />
+            </div>
+            <div class="house-info">
+              <p>Cozy Apartment in San Francisco</p>
+              <h3>Warm Modern Condo Near City Center</h3>
+              <p>1 Bedroom • 1 Bathroom • Wi-Fi • Full Kitchen</p>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+              <i class="fa-regular fa-star"></i>
+
+              <div class="house-price">
+                <p>3 Guests</p>
+                <h4>$ 125 <span>/ day</span></h4>
+              </div>
+            </div>
+          </div>
+
+          <!-- 5: Luxury villa with pool -->
+          <div class="house">
+            <div class="house-img">
+              <img
+                src="images/image-s5.png"
+                alt="Luxury villa with pool and garden"
+              />
+            </div>
+            <div class="house-info">
+              <p>Luxury Villa in San Francisco</p>
+              <h3>Luxury Poolside Villa with Garden View</h3>
+              <p>3 Bedrooms • 3 Bathrooms • Wi-Fi • Private Pool</p>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+
+              <div class="house-price">
+                <p>6 Guests</p>
+                <h4>$ 380 <span>/ day</span></h4>
+              </div>
+            </div>
+          </div>
+
+          <!-- 6: Contemporary townhouse with plunge pool -->
+          <div class="house">
+            <div class="house-img">
+              <img
+                src="images/image-s6.png"
+                alt="Townhouse courtyard with plunge pool"
+              />
+            </div>
+            <div class="house-info">
+              <p>Designer Townhouse in San Francisco</p>
+              <h3>Contemporary Townhouse with Private Plunge Pool</h3>
+              <p>2 Bedrooms • 2 Bathrooms • Wi-Fi • Courtyard Pool</p>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+
+              <div class="house-price">
+                <p>4 Guests</p>
+                <h4>$ 220 <span>/ day</span></h4>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="right-col">
+          <div class="sidebar">
+            <h2>Select Filters</h2>
+
+            <h3>Property Type</h3>
+            <div class="filter">
+              <input type="checkbox" />
+              <p>House</p>
+              <span>(0)</span>
+            </div>
+            <div class="filter">
+              <input type="checkbox" />
+              <p>Hostel</p>
+              <span>(0)</span>
+            </div>
+            <div class="filter">
+              <input type="checkbox" />
+              <p>Flat</p>
+              <span>(0)</span>
+            </div>
+            <div class="filter">
+              <input type="checkbox" />
+              <p>Villa</p>
+              <span>(0)</span>
+            </div>
+            <div class="filter">
+              <input type="checkbox" />
+              <p>Guest Suite</p>
+              <span>(0)</span>
+            </div>
+
+            <h3>Amenities</h3>
+            <div class="filter">
+              <input type="checkbox" />
+              <p>Air Conditioning</p>
+              <span>(0)</span>
+            </div>
+            <div class="filter">
+              <input type="checkbox" />
+              <p>Wi-Fi</p>
+              <span>(0)</span>
+            </div>
+            <div class="filter">
+              <input type="checkbox" />
+              <p>Gym</p>
+              <span>(0)</span>
+            </div>
+            <div class="filter">
+              <input type="checkbox" />
+              <p>Pool</p>
+              <span>(0)</span>
+            </div>
+            <div class="filter">
+              <input type="checkbox" />
+              <p>Kitchen</p>
+              <span>(0)</span>
+            </div>
+
+            <div class="sidebar-link">
+              <a href="#">View More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="pagination">
+        <img src="images/arrow.png" alt="left arrow" />
+        <span class="current">1</span>
+        <span>2</span>
+        <span>3</span>
+        <span>4</span>
+        <span>5</span>
+        <span>&middot; &middot; &middot; &middot;</span>
+        <span>20</span>
+        <img src="images/arrow.png" class="right-arrow" alt="right arrow" />
+      </div>
+
+      <div class="footer">
+        <a
+          href="https://www.linkedin.com/in/subhayu-mondal-13a71b294"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="LinkedIn"
+        >
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+        <a
+          href="https://github.com/Subhayu-Mondal"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="GitHub"
+        >
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a
+          href="https://www.facebook.com/share/17W2vAeLur/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Facebook"
+        >
+          <i class="fa-brands fa-facebook-f"></i>
+        </a>
+        <a
+          href="https://x.com/Subhayu30"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="X (Twitter)"
+        >
+          <i class="fa-brands fa-x-twitter"></i>
+        </a>
+        <a
+          href="https://www.instagram.com/subhayu._"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Instagram"
+        >
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <hr />
+        <p>
+          Copyright © 2025 StayBnB. Designed and developed by Subhayu Mondal.
+          All rights reserved.
+        </p>
+      </div>
+    </div>
+
+    <script>
+      var navBar = document.getElementById("navBar");
+
+      function togglebtn() {
+        navBar.classList.toggle("hidemenu");
+      }
+    </script>
+  </body>
+</html>
