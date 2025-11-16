@@ -1,4 +1,10 @@
 StayBnB
+👨‍💻 Created By
+
+Subhayu Mondal
+🔗 GitHub: https://github.com/Subhayu-Mondal
+
+🔗 LinkedIn: https://www.linkedin.com/in/subhayu-mondal-13a71b294
 
 A modern, responsive travel accommodation website inspired by Airbnb.
 Built using HTML, CSS, and Font Awesome, and fully optimized for desktop and mobile.
