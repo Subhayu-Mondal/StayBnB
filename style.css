@@ -45,7 +45,7 @@ nav {
 
 .nav-link li a {
   text-decoration: none;
-  color: #fff; /* default (for home, on dark banner) */
+  color: #fff; 
 }
 
 .register-btn {
@@ -63,7 +63,7 @@ nav {
   padding: 0 7%;
 }
 
-/* Homepage hero title only (on dark banner) */
+/* Homepage hero title only */
 .header .container h1 {
   font-size: 4vw;
   font-weight: 500;
@@ -488,7 +488,7 @@ nav .fa-bars {
 .left-col h1 {
   font-size: 32px;
   margin-bottom: 20px;
-  color: #000;      /* make sure it's visible on white */
+  color: #000;     
   text-align: left;
   padding-top: 0;
 }
